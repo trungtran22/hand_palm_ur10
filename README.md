@@ -5,7 +5,9 @@
 - Use Mediapipe to detect 21 landmarks of the hand
 - 2 methods of getting palm coordinates:
   1. Extract the center of Wrist and Middle Finger coordinates (only x and y)
+     ![](https://github.com/trungtran22/hand_palm_ur10/blob/main/docs/MediaPipe%20Hands_screenshot_01.11.2025.png)
   2. Create a bounding box and get the center of the bounding box (x and y); area of bounding box represent z coordinate
+     ![](https://github.com/trungtran22/hand_palm_ur10/blob/main/docs/Palm%20Detector_screenshot_01.11.2025.png)
 - Convert to `String_msgs` and publish to URSim via topic `/urscript_interface/script_command`
   - speedl([vx,vy,vz, rx,ry,rz], acceleration, time)
 ### Installation and Initialize
