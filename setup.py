@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'hand_detector'
+package_name = 'hand_palm_ur10'
 
 setup(
     name=package_name,
