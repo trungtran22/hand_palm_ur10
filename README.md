@@ -67,3 +67,4 @@ Init `ur_robot_driver`:
 ```
 ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur10 robot_ip:=YOUR_ROBOT_IP
 ```
+![](https://github.com/trungtran22/hand_palm_ur10/blob/main/docs/2025-11-01%2013-17-25%202.gif)
