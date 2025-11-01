@@ -61,6 +61,8 @@ Init URSim (take the IP of the simulated robot from here):
 ```
 sudo docker run --rm -it -p 5900:5900 -p 30001-30004:30001-30004 universalrobots/ursim_e-series:5.11
 ```
+- Access the link given by ursim, turn on and release brake of the robot before init `ur_robot_driver`
+![](https://github.com/trungtran22/hand_palm_ur10/blob/main/docs/Screenshot%20from%202025-11-01%2013-07-02.png)
 Init `ur_robot_driver`:
 ```
 ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur10 robot_ip:=YOUR_ROBOT_IP
